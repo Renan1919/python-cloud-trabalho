@@ -1,0 +1,12 @@
+# Ambiente Virtual
+/.venv/
+
+# Pasta de configuração do PyCharm
+/.idea/
+
+# Pastas de cache do Python
+/__pycache__/
+*.pyc
+
+# Ficheiro de dados gerado
+/alunos.json
