@@ -61,4 +61,24 @@ Cria um servidor web local que funciona como uma API RESTful com quatro rotas:
 <img width="1080" height="405" alt="image" src="https://github.com/user-attachments/assets/68f2b3b8-3178-4f1c-adb3-0bdb67e4ff2c" />
 <img width="1090" height="443" alt="image" src="https://github.com/user-attachments/assets/7386686c-ab81-412f-b82b-77479770ab50" />
 
+⚙️ Teste de Versionamento (git clone e git pull)
+Tarefa 6: Testar git pull/clonar em outra máquina
+
+git clone: Repositório clonado em uma nova pasta, simulando um segundo desenvolvedor.
+<img width="1090" height="523" alt="image" src="https://github.com/user-attachments/assets/28e0f4d8-a9ca-4a65-9248-08e2ea10c59a" />
+
+Simulação de Conflito: Uma alteração foi feita no repositório local principal e uma outra no remoto (pelo site do GitHub), causando um erro de push rejected.
+<img width="1090" height="422" alt="image" src="https://github.com/user-attachments/assets/fdfccc2a-02fb-46ee-84ba-3df88a64f724" />
+
+git pull para Sincronizar: O comando git pull foi usado para baixar as alterações remotas e mesclá-las com as locais, resolvendo o conflito.
+<img width="1090" height="531" alt="image" src="https://github.com/user-attachments/assets/73bc6861-b5d0-4267-96cb-e8cb00928dca" />
+
+push com Sucesso: Após a sincronização, o push foi concluído com sucesso.
+<img width="1090" height="246" alt="image" src="https://github.com/user-attachments/assets/0bd3ad42-3026-419b-8e51-b507741a6b77" />
+
+git pull na "Outra Máquina": Finalmente, o git pull foi executado na pasta clonada para receber todas as novas atualizações com arquivo test.py, completando o ciclo.
+<img width="1090" height="544" alt="image" src="https://github.com/user-attachments/assets/7c628421-c56e-4a52-b027-c950947a52ea" />
+
+Este processo demonstrou na prática como o Git gerencia o histórico de um projeto em diferentes locais, garantindo a integridade e a colaboração.
+
 
