@@ -1,4 +1,5 @@
 Python + Cloud + GitHub
+
 Este trabalho demonstra habilidades práticas no uso de Python para tarefas relacionadas à nuvem. É focado em 3 áreas principais:
 
 Consumo de APIs Externas: Interação com as APIs do GitHub e Open-Meteo para buscar dados em tempo real.
